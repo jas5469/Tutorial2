@@ -25,5 +25,4 @@ public abstract class Filter implements Runnable {
     public String read() throws EOFException {
         return in.read();
     }
-
 }
